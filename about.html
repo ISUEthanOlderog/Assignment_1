@@ -9,12 +9,65 @@
         .author-info {
             margin-top: 50px;
         }
+        footer {
+            background-color: #f8f9fa;
+            padding: 20px 0;
+        }
     </style>
 </head>
 <body>
     <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Product Catalog</a>
+            <a class="navbar-brand" href="#">Hardware Catalog</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">GPUs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cpu.html">CPUs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="about.html">About Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="bg-info text-white text-center py-5">
+        <h1>About Us</h1>
+        <p class="lead">Meet the team behind the Hardware Catalog</p>
+    </header>
+
+    <!-- Author Info Section -->
+    <div class="container author-info">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <h2>Course Information</h2>
+                <p><strong>Course:</strong> COM S/SE 3190: Construction of User Interfaces</p>
+                <p><strong>Professor:</strong> Dr. Abraham Aldaco</p>
+                <p><strong>Date:</strong> September 2024</p>
+
+                <h2>Team Members</h2>
+                <p><strong>Name:</strong> Ethan J. Olderog</p>
+                <p><strong>Email:</strong> ejolderog@gmail.com</p>
+
+                <!-- Add other team members similarly -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <p>&copy; 2024 Hardware Catalog | About Us</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
